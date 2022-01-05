@@ -10,3 +10,13 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Server running on http://localhost:${port}/`);
 });
+console.log('My %s has %d years', 'cat', 2);
+const oranges = ['orange', 'orange']
+const apples = ['just one apple']
+oranges.forEach(fruit => {
+  console.count(fruit)
+})
+apples.forEach(fruit => {
+  console.count(fruit)
+})
+//console.clear();
