@@ -19,4 +19,5 @@ oranges.forEach(fruit => {
 apples.forEach(fruit => {
   console.count(fruit)
 })
+
 //console.clear();
